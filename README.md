@@ -1,4 +1,4 @@
-# Cross-Site Water Demand Forecasting-Reproducible Code (Public Release)
+# Cross-Site Water Demand Forecasting-Reproducible Code
 
 This repository contains a clean, minimal, and *data-agnostic* implementation of the pipeline described in our manuscript on **cross-site water demand forecasting under covariate shift**. 
 It includes baselines and models mentioned in the paper (Seasonal Naïve baseline, LightGBM, LSTM) and hooks for transfer mechanisms (statistical alignment via CORAL, adversarial (DANN) stub, and meta-learning (MAML) stub).
