@@ -5,6 +5,28 @@ It includes baselines and models mentioned in the paper (Seasonal Naïve baselin
 
 > **Note on data:** The operational SCADA data used in the study is **under NDA** and cannot be shared. We therefore ship a **synthetic generator** that replicates key statistical properties (diurnal/weekly seasonality, noise, covariate shift across sites) so the full code path can be executed end-to-end by reviewers/readers.
 
+# XDemand Transfer Pipeline  
+*Public codebase accompanying the study "Cross-site Water Demand Forecasting under Covariate Shift".*
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.9%2B-brightgreen.svg)]()
+[![Status](https://img.shields.io/badge/Status-Research%20Code-yellow.svg)]()
+
+---
+
+### Citation
+If you use this code, please cite:
+> Ranković, N. & Ranković, D. (2025). Informer-Based Cross-Site Transfer Learning for Water Demand Forecasting via Domain Adap-
+tation and Meta-Learning. *Ecological Informatics*.
+
+
+### Overview
+This repository provides a reproducible implementation of the multi-site water demand forecasting pipeline, including:
+- **Seasonal Naïve**, **LightGBM**, and **LSTM** baseline models
+- Statistical alignment via **CORAL**
+- Synthetic SCADA data generator for reproducibility under NDA
+
+---
 ## Quick start
 
 ```bash
